@@ -14,11 +14,11 @@ int main()
 
   // loop para que a tecla enter não seja levada em consideração
   int i = 0;
-  while (nome[i] != '\0' && sobrenome[i] != '\0')
+  while (nome[i] != '\t' && sobrenome[i] != '\0')
   {
     if (nome[i] == '\n')
     {
-      nome[i] = '\0';
+      nome[i] = '\t';
     }
 
     if (sobrenome[i] == '\n')
